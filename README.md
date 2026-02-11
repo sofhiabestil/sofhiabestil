@@ -1,16 +1,16 @@
-## Hi there 👋
+# Sofhia Web Portfolio (Simple Scaffold)
 
-<!--
-**sofhiabestil/sofhiabestil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a minimal responsive portfolio scaffold using HTML, Bootstrap, CSS, JavaScript and PHP (for contact handling).
 
-Here are some ideas to get you started:
+Quick run (PHP built-in server):
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```powershell
+cd "c:\Users\piami\Downloads\Sofhia Web Portfolio"
+php -S localhost:8000
+```
+
+Open http://localhost:8000/ in your browser.
+
+Notes:
+- The contact form posts to `contact.php`. If your PHP environment has no mail configured, messages will be appended to `messages.txt`.
+- Update the recipient email in `contact.php` (`$to`) to receive real emails.

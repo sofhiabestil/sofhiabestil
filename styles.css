@@ -1,0 +1,69 @@
+:root{
+  --accent:#6f63ff;
+  --bg:#0f1724;
+}
+
+/* This CSS sets both the <html> and <body> elements to take 100% of the browser viewport height. */
+html,body{height:100%}
+
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: radial-gradient(#f8fafc, #e0fbfc,#9CCFFF);
+  color: #1e293b;
+}
+
+.logo{
+  display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#5ad0ff);font-weight:700;color:#071029
+}
+
+.project-card{transition:transform .18s ease, box-shadow .18s ease}
+.project-card:hover{transform:translateY(-6px);box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.card{background:#F1F5F9;border:0;color:inherit}
+.text-muted{color:#9aa4b2}
+#formAlert{min-height:2rem}
+
+@media (max-width: 768px){
+  header .logo{width:40px;height:40px}
+}
+
+.navbar{
+  background-color: #ffffff;/* light background */
+  color: #1e293b; /* dark text */
+}
+
+
+.my-header {
+  background-color: rgba(156, 207, 255, 0.5);  
+  color: #1e293b;             /* light text */
+}
+
+.my-card {
+  background-color: #3d5a80;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.btn-outline-light {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.btn-outline-light:hover {
+  background-color: #1d4ed8;;
+  color: white;
+}
+
+.text-muted {
+    color: #888888; /* soft gray color */
+    font-size: 0.95rem; /* slightly smaller text if you want */
+    font-weight: 400; /* normal weight */
+}
