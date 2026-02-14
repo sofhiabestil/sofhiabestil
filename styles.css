@@ -29,7 +29,7 @@ body{
 
 .nav-item .nav-link {
   font-size: clamp(1.5rem, 3vw, 1.5rem); /* responsive font size */
-  
+  margin-left: 30px;
 } 
 
 .nav-item .nav-link:hover {
@@ -77,4 +77,21 @@ body{
     color: #888888; /* soft gray color */
     font-size: 0.95rem; /* slightly smaller text if you want */
     font-weight: 400; /* normal weight */
+}
+
+.about-pic {
+  width: 150%; 
+  height: 500px; 
+  object-fit: contain;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }

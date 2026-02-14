@@ -1,3 +1,12 @@
 @media (max-width: 768px){
   header .logo{width:40px;height:40px}
 }
+
+@media screen and (max-width: 600px) {
+  
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+}
