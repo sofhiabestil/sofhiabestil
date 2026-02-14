@@ -22,24 +22,35 @@ body{
 .text-muted{color:#9aa4b2}
 #formAlert{min-height:2rem}
 
-@media (max-width: 768px){
-  header .logo{width:40px;height:40px}
-}
-
 .navbar{
-  background-color: #ffffff;/* light background */
+  background-color:  rgba(156, 207, 255, 0.5);/* light background */
   color: #1e293b; /* dark text */
 }
 
+.nav-item .nav-link {
+  font-size: clamp(1.5rem, 3vw, 1.5rem); /* responsive font size */
+  
+} 
+
+.nav-item .nav-link:hover {
+  color: #1e293b;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color:#2563eb;
+}
 
 .my-header {
-  background-color: rgba(156, 207, 255, 0.5);  
+  background-color:#ffffff;  
   color: #1e293b;             /* light text */
 }
 
 .my-card {
-  background-color: #3d5a80;
-  color: #ffffff;
+  background-color: #ffffff; /* light background */
+  border: 2px solid #2563eb; /* blue border */
+  border-radius: 12px; /* rounded corners */
+  color: #071029;  
+     
+
 }
 
 .btn-primary {
