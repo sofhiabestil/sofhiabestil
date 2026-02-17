@@ -1,12 +1,10 @@
 @media (max-width: 768px){
   header .logo{width:40px;height:40px}
+  .my-navbar .nav-link{padding:0.55rem 0.75rem}
+  .my-navbar .navbar-collapse{padding-bottom:0.55rem}
+  .hero-actions .btn{width:100%}
+  .skills-badge{display:none}
+  .hero-stats span{font-size:0.78rem}
+  .footer-links{gap:0.7rem}
 }
 
-@media screen and (max-width: 600px) {
-  
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
-}

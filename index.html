@@ -3,18 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Sofhia — Web Portfolio</title>
+        <title>Sofhia - Web Portfolio</title>
         <meta name="description" content="Sofhia's web development portfolio" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="mediaqueries.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg my-navbar sticky-top">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <span class="logo me-2">S</span>
-                    <span>Sofhia Isabel Bestil</span>
+                    <span class="brand-name">Sofhia Isabel Bestil</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,272 +25,240 @@
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
+                    <a class="btn nav-cta ms-lg-3" href="#contact">Hire Me</a>
                 </div>
             </div>
         </nav>
 
         <header class="py-5 my-header">
             <div class="container d-lg-flex align-items-center justify-content-between">
-                <div>
-                    <h1 class="display-6 mb-2">Hi — I'm Sofhia, Computer Science Graduate.</h1>
-                    <p class="lead mb-3">I specialize in developing <b>Web Applications</b>, <b>Analyzing Data Insights</b>,
-                        and ensuring <b>Software Quality</b> through structured testing and problem-solving.</p>
-                    <a class="btn btn-primary me-2" href="#projects">See Projects</a>
-                    <a class="btn btn-outline-light" href="#contact">Get in touch</a>
+                <div class="hero-copy">
+                    <p class="hero-kicker">Computer Science Graduate</p>
+                    <h1 class="display-6 mb-2">Building clean web experiences with quality-focused execution.</h1>
+                    <p class="lead mb-3">I design and build responsive web applications, analyze data for practical insights, and support reliable releases through structured software testing.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary me-2" href="#projects">See Projects</a>
+                        <a class="btn btn-outline-light" href="#contact">Get in touch</a>
+                    </div>
+                    <div class="hero-stats">
+                        <span>Web Development</span>
+                        <span>Data Insights</span>
+                        <span>Software QA</span>
+                    </div>
                 </div>
-                
-                <div>
-                    <aside class="card my-card p-3 mt-4 mt-lg-0 w-100" style="max-width:520px;">  
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <h5 class="mb-0">Tech Stack</h5>
-                            <h6 class="d-none d-md-block mb-0">
-                                <a href="../../" class="text-decoration-none">View All</a>
-                            </h6>
-                        </div>
-                        <p class="my-muted mb-1">Frontend: JavaScript · CSS · Bootstrap 5 · HTML5</p>
-                        <p class="my-muted mb-1">Backend: C · C++ · C# · Java · Python · PHP</p>
-                        <p class="my-muted mb-1">AI & Machine Learning: TensorFlow</p>
-                        <p class="my-muted mb-1">No-Code: WordPress</p>
-                        <p class="my-muted mb-1">Developer Tools: Git · GitHub · VS Code · PyCharm · Discord · Teams · JIRA · TRELLO</p>
 
-                        <p class="my-muted mb-0">Location: Remote</p>
+                <div class="hero-skills-wrap">
+                    <aside class="card my-card p-3 mt-4 mt-lg-0 w-100">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="mb-0">Tech Skills</h5>
+                            <span class="skills-badge">Available for Junior Roles</span>
+                        </div>
+
+                        <div class="skills-group">
+                            <p class="skills-title">Frontend</p>
+                            <div class="skills-list">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap 5</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-group">
+                            <p class="skills-title">Backend &amp; Programming</p>
+                            <div class="skills-list">
+                                <span>Python</span><span>Java</span><span>PHP</span><span>C</span><span>C++</span><span>C#</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-group">
+                            <p class="skills-title">Tools &amp; Platforms</p>
+                            <div class="skills-list">
+                                <span>Git</span><span>GitHub</span><span>VS Code</span><span>PyCharm</span><span>JIRA</span><span>Trello</span><span>WordPress</span>
+                            </div>
+                        </div>
+
+                        <p class="my-muted mb-0 mt-2">Location: Philippines (Remote)</p>
                     </aside>
                 </div>
-                
-                
             </div>
         </header>
 
-<!-- ABOUT PAGE -->
-
         <main class="container py-5">
             <section id="about" class="mb-4">
-                <p>Get To Know More</p>
-                <h1>About Me</h2>
-               <!--
-                     <p class="text-muted">I create user-centered interfaces and front-end architecture for web applications. I turn design systems into accessible, robust code and optimize for fast load times across devices.</p>
-                   -->
+                <p class="section_text_p1">Get To Know More</p>
+                <h1 class="title">About Me</h1>
+
                 <div class="section-container">
-                    <div class="section__pic-container">
+                    <div class="section__pic-container" style="border-color: #061b1c">
                         <img src="assets/pic-1.png" alt="Profile picture" class="about-pic"/>
                     </div>
 
                     <div class="about-details-container">
-                        <div class="about-containers">
+                       <div class="about-containers">
                             <div class="details-container">
                                 <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
                                 <h3>Experience</h3>
-                                <p>2+ years <br />Frontend Development</p>
+                                <p>1+ year<br />Cashier / Customer Service</p>
                             </div>
-
                             <div class="details-container">
                                 <img src="./assets/education.png" alt="Education icon" class="icon"/>
                                 <h3>Education</h3>
-                                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                                <p>B.Sc. Computer Science</p>
                             </div>
-                            
+                            <div class="text-container">
+                                <p>I build reliable user-focused interfaces, write clean code, and deliver projects with clear communication and quality testing.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-
-
-
             </section>
 
-            <section id="projects" class="mb-4">
-                <h2>Project Gallery</h2>
-                <!--ROW 1-->
-                <div class="row g-3 mt-2">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Manual Software Testing</h5>
-                                <p class="card-text text-muted">Responsive dashboard built with React and performant data fetching.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Philippines Earthquake During the last 48hrs</h5>
-                                <p class="card-text text-muted">Design system and component library with accessibility-first patterns.</p>
-                                <a href="project-gallery/philippine-earthquake.html" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">DSA Marketing Financial Dashboard</h5>
-                                <p class="card-text text-muted">Static site optimized for SEO and performance using modern build tooling.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--ROW 2-->
-                <div class="row g-3 mt-2">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">The Big Five (OCEAN) Personality Traits: An Empirical Comparison of Machine Learning Algorithms and Clustering Analysis</h5>
-                                <p class="card-text text-muted">Responsive dashboard built with React and performant data fetching.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Fake News Detection & Sentiment Analysis on Twitter Tweets Using Supervised Learning System</h5>
-                                <p class="card-text text-muted">Design system and component library with accessibility-first patterns.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Sentiment Analysis of Tweets About Online Classes During Covid-19 Pandemic in the Philippines Using Naïve Bayes Algorithm</h5>
-                                <p class="card-text text-muted">Static site optimized for SEO and performance using modern build tooling.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 <!--ROW 3-->
-                <div class="row g-3 mt-2">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">A Comparative Analysis of Data Science Role Parameters and Salaries Globally from 2020-2022</h5>
-                                <p class="card-text text-muted">Design system and component library with accessibility-first patterns.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">MATHAYUS: A Mathematics Mobile Learning Game for Grade 1 Students Implementing Modern Fisher-Yates Algorithm</h5>
-                                <p class="card-text text-muted">Responsive dashboard built with React and performant data fetching.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Parts of Speech Quiz Game using flutter & Dart</h5>
-                                <p class="card-text text-muted">Static site optimized for SEO and performance using modern build tooling.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 <!--ROW 5-->
-                <div class="row g-3 mt-2">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Sandata On Sakuna</h5>
-                                <p class="card-text text-muted">Design system and component library with accessibility-first patterns.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Parts Of Speech</h5>
-                                <p class="card-text text-muted">Responsive dashboard built with React and performant data fetching.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Cafe Point of Sale System</h5>
-                                <p class="card-text text-muted">Static site optimized for SEO and performance using modern build tooling.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                </div>
-                <!--ROW 6-->
-                <div class="row g-3 mt-2">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">Blood Bank</h5>
-                                <p class="card-text text-muted">Design system and component library with accessibility-first patterns.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">///</h5>
-                                <p class="card-text text-muted">Responsive dashboard built with React and performant data fetching.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card h-100 project-card">
-                            <div class="card-body">
-                                <h5 class="card-title">///</h5>
-                                <p class="card-text text-muted">Static site optimized for SEO and performance using modern build tooling.</p>
-                                <a href="#" class="stretched-link text-decoration-none">View case study →</a>
-                            </div>
-                        </div>
-                    </div>
+            <section id="projects" class="mb-5">
+                <div class="section-head">
+                    <p class="section-label">Portfolio Work</p>
+                    <h2>Project Gallery</h2>
+                    <p class="section-note">Filter by focus area to quickly view relevant case studies.</p>
                 </div>
 
+                <div class="project-filters" role="group" aria-label="Project category filters">
+                    <button class="filter-btn is-active" type="button" data-project-filter="all">All</button>
+                    <button class="filter-btn" type="button" data-project-filter="web">Web App</button>
+                    <button class="filter-btn" type="button" data-project-filter="data">Data</button>
+                    <button class="filter-btn" type="button" data-project-filter="qa">QA</button>
+                </div>
+
+                <div class="row g-3 mt-1" id="projectGrid">
+                    <div class="col-sm-6 col-lg-4 project-item" data-category="qa">
+                        <article class="card h-100 project-card project-panel">
+                            <div class="card-body">
+                                <span class="project-tag">QA</span>
+                                <h5 class="card-title mt-2">Manual Software Testing</h5>
+                                <p class="card-text text-muted">Test plan creation, regression checks, and bug reporting for stable releases.</p>
+                                <p class="project-tech">JIRA | Test Cases | Bug Triage</p>
+                                <a href="#" class="project-link">View case study</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 project-item" data-category="data">
+                        <article class="card h-100 project-card project-panel">
+                            <div class="card-body">
+                                <span class="project-tag">Data</span>
+                                <h5 class="card-title mt-2">Philippines Earthquake (Last 48 Hours)</h5>
+                                <p class="card-text text-muted">Interactive reporting page for regional earthquake activity and summary insights.</p>
+                                <p class="project-tech">JavaScript | API | Visualization</p>
+                                <a href="project-gallery/philippine-earthquake.html" class="project-link">View case study</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 project-item" data-category="data">
+                        <article class="card h-100 project-card project-panel">
+                            <div class="card-body">
+                                <span class="project-tag">Data</span>
+                                <h5 class="card-title mt-2">DSA Marketing Financial Dashboard</h5>
+                                <p class="card-text text-muted">Performance tracking dashboard with visual KPIs and monthly budget insights.</p>
+                                <p class="project-tech">Excel | Charts | Reporting</p>
+                                <a href="#" class="project-link">View case study</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 project-item" data-category="web">
+                        <article class="card h-100 project-card project-panel">
+                            <div class="card-body">
+                                <span class="project-tag">Web App</span>
+                                <h5 class="card-title mt-2">Portfolio Website</h5>
+                                <p class="card-text text-muted">Responsive personal website with section-based layout and smooth interactions.</p>
+                                <p class="project-tech">HTML | CSS | Bootstrap | JS</p>
+                                <a href="#" class="project-link">View case study</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 project-item" data-category="web">
+                        <article class="card h-100 project-card project-panel">
+                            <div class="card-body">
+                                <span class="project-tag">Web App</span>
+                                <h5 class="card-title mt-2">WordPress Business Site</h5>
+                                <p class="card-text text-muted">No-code website implementation focused on content structure and usability.</p>
+                                <p class="project-tech">WordPress | SEO | UI</p>
+                                <a href="#" class="project-link">View case study</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 project-item" data-category="qa">
+                        <article class="card h-100 project-card project-panel">
+                            <div class="card-body">
+                                <span class="project-tag">QA</span>
+                                <h5 class="card-title mt-2">Functional Test Documentation</h5>
+                                <p class="card-text text-muted">Structured test scenarios and issue logs prepared for feature validation cycles.</p>
+                                <p class="project-tech">Documentation | QA Process</p>
+                                <a href="#" class="project-link">View case study</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <p id="projectEmpty" class="project-empty d-none">No projects match this filter yet.</p>
             </section>
-                
-<!-- CONTACT PAGE 
+
             <section id="contact" class="mb-4">
-                <h2>Contact</h2>
-                <div class="row">
-                    <div class="col-lg-7">
-                        <form id="contactForm" action="contact.php" method="post" class="card p-3">
-                            <div id="formAlert"></div>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input id="name" name="name" type="text" class="form-control" placeholder="Your name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input id="email" name="email" type="email" class="form-control" placeholder="you@example.com" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea id="message" name="message" rows="5" class="form-control" placeholder="Short message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send message</button>
-                        </form>
-                    </div>
-                    <div class="col-lg-5 mt-3 mt-lg-0">
-                        <div class="card p-3">
-                            <h5 class="mb-2">Get in touch</h5>
-                            <p class="text-muted mb-1">Email: hello@yourdomain.com</p>
-                            <p class="text-muted mb-0">Location: Remote</p>
-                        </div>
-                    </div>
+                <div class="section-head">
+                    <p class="section-label">Let's Connect</p>
+                    <h2>Contact Me</h2>
                 </div>
-            </section>-->
+
+                <div class="contact-layout">
+                    <aside class="contact-card">
+                        <h3>Open to Opportunities</h3>
+                        <p>I am available for entry-level web, QA, and data-related roles. Reach out and I will reply soon.</p>
+                        <ul class="contact-list">
+                            <li><strong>Email:</strong> hello@yourdomain.com</li>
+                            <li><strong>Location:</strong> Philippines (Remote)</li>
+                            <li><strong>Response Time:</strong> Within 24-48 hours</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" aria-label="GitHub profile">GitHub</a>
+                            <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
+                        </div>
+                    </aside>
+
+                    <form id="contactForm" action="contact.php" method="post" class="contact-form">
+                        <div id="formAlert" aria-live="polite"></div>
+
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+                        <label for="subject">Subject</label>
+                        <input id="subject" name="subject" type="text" placeholder="Project inquiry / collaboration" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" maxlength="500" placeholder="Share details about your project..." required></textarea>
+                        <p class="message-counter"><span id="messageCount">0</span>/500</p>
+
+                        <button id="submitBtn" type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </section>
         </main>
 
-        <footer class="bg-dark text-light py-3">
-            <div class="container d-flex justify-content-between">
-                <div>© <span id="year"></span> Sofhia</div>
-                <div>
-                    <a href="#" class="text-light me-2">GitHub</a>
-                    <a href="#" class="text-light">LinkedIn</a>
+        <footer class="site-footer py-4">
+            <div class="container">
+                <div class="footer-top">
+                    <div>
+                        <p class="footer-name mb-1">Sofhia Isabel Bestil</p>
+                        <p class="footer-role mb-0">Web Development | Data Insights | Software QA</p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#" aria-label="GitHub profile">GitHub</a>
+                        <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
+                        <a href="#contact">Email</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="mb-0">&copy; <span id="year"></span> Sofhia. All rights reserved.</p>
                 </div>
             </div>
         </footer>
