@@ -18,7 +18,7 @@ if (!$name || !$email || !$message) {
     resp(false, 'Please fill in name, valid email, and message.');
 }
 
-$to = 'hello@yourdomain.com';
+$to = 'sofhiabestil@gmail.com';
 $subject = 'Portfolio contact from ' . $name;
 $body = "Name: $name\nEmail: $email\n\nMessage:\n$message\n";
 $headers = "From: $email\r\nReply-To: $email\r\n";

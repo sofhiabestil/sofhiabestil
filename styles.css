@@ -3,6 +3,7 @@
   --bg:#0f1724;
 }
 
+
 /* This CSS sets both the <html> and <body> elements to take 100% of the browser viewport height. */
 html,body{height:100%}
 
@@ -207,6 +208,16 @@ body{
     color: #888888; /* soft gray color */
     font-size: 0.95rem; /* slightly smaller text if you want */
     font-weight: 400; /* normal weight */
+}
+
+@media (max-width: 768px){
+  header .logo{width:40px;height:40px}
+  .my-navbar .nav-link{padding:0.55rem 0.75rem}
+  .my-navbar .navbar-collapse{padding-bottom:0.55rem}
+  .hero-actions .btn{width:100%}
+  .skills-badge{display:none}
+  .hero-stats span{font-size:0.78rem}
+  .footer-links{gap:0.7rem}
 }
 
 /* ABOUT SECTION */
